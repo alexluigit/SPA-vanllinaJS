@@ -1,4 +1,4 @@
-import router from './router.js'
+import router from './router/router.js'
 
 document.addEventListener("DOMContentLoaded", init)
 window.addEventListener("popstate", router.render)
@@ -12,4 +12,3 @@ function init() {
   })
   router.render()
 }
-
